@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&family=Roboto:ital@0;1&family=Rubik:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password toggle</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <label for="password" class="password-label">Enter Password : </label>
+      <input type="password" id="password" class="password-box" />
+      <span><ion-icon name="eye-outline" class="eye-icon"></ion-icon></span>
+      <span
+        ><ion-icon name="eye-off-outline" class="closeEye-icon"></ion-icon
+      ></span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

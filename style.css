@@ -43,7 +43,19 @@ body {
   display: none;
 } */
 
+.closeEye-icon {
+  display: none;
+  position: absolute;
+  font-size: 1.4rem;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #818cf8;
+}
+
 .eye-icon {
+  display: none;
   position: absolute;
   font-size: 1.4rem;
   right: 10px;
@@ -52,16 +64,6 @@ body {
   cursor: pointer;
   color: #818cf8;
   /* display: none; */
-}
-
-.closeEye-icon {
-  position: absolute;
-  font-size: 1.4rem;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-  color: #818cf8;
 }
 
 /* .wrapper input:valid ~ span {
